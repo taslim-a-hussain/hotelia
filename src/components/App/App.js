@@ -1,12 +1,12 @@
 import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import {HashRouter, Switch, Route} from 'react-router-dom';
 import Home from '../Home/Home';
 import './sass/App.scss';
 
 export default () => (
-    <BrowserRouter>
+    <HashRouter>
         <Switch>
             <Route exact path="/" component={Home} />
         </Switch>
-    </BrowserRouter>
+    </HashRouter>
 );
