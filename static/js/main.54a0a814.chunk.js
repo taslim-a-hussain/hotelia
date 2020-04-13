@@ -1,2 +1,2 @@
 (this["webpackJsonpgrand-hotel"]=this["webpackJsonpgrand-hotel"]||[]).push([[0],{17:function(e,t,n){e.exports=n(28)},22:function(e,t,n){},28:function(e,t,n){"use strict";n.r(t);var a=n(0),l=n.n(a),r=n(13),c=n.n(r),o=n(14),u=n(5),m=function(){return l.a.createElement("div",null,l.a.createElement("h1",null,"Home"),l.a.createElement("p",null,"Here is some dummy text...."))},i=(n(22),function(){return l.a.createElement(o.a,null,l.a.createElement(u.c,null,l.a.createElement(u.a,{exact:!0,path:"/",component:m})))});c.a.render(l.a.createElement(i,null),document.getElementById("root"))}},[[17,1,2]]]);
-//# sourceMappingURL=main.5c07f037.chunk.js.map
+//# sourceMappingURL=main.54a0a814.chunk.js.map
