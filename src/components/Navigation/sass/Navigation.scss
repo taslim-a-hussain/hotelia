@@ -1,3 +1,5 @@
+@import './export/var';
+
 .navigation {
     margin-left: 8rem;
     position: fixed;
@@ -21,8 +23,13 @@
     font-weight: 300;
     letter-spacing: .2rem;
     text-align: center;
-    color: rgb(197, 139, 125);
+    color: $brand-color;
     text-shadow: .3rem .3rem rgba(5, 23, 128, 0.9);
+    cursor: pointer;
+
+    &:hover {
+        color: $onHover-color;
+    }
 } 
 
 .navigation-search {
@@ -39,22 +46,35 @@
     font-size: 1.6rem;
     outline: none;
     box-shadow: .3rem .3rem rgba(5, 23, 128, 0.9);
-    transition-property: background-color, color;
+    transition-property: background-color, color, border;
     transition-duration: .3s;
 
     &:focus {
         background-color:  rgba(0, 0, 0, 0.5);
         color: white;
+        border: .08 solid $onHover-color;
+    }
+
+    &:focus ~ .navigation-search-btn {
+        text-shadow: .3rem .3rem rgba(75, 84, 179, 0.9);
     }
 }
 
 .navigation-search-btn {
     border: none;
+    color: $brand-color;
     position: absolute;
-    bottom: .3rem;
+    top: 1rem;
+    right: 1rem;
     background-color: transparent;
     font-size: 2rem;
     text-shadow: .3rem .3rem rgba(5, 23, 128, 0.9);
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+        color: $onHover-color;
+    }
 }
 
 .navigation-list {
