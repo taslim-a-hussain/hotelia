@@ -1,4 +1,4 @@
-@import './export/var';
+@import '../../App/sass/export/var';
 
 .navbar {
     .sidebar {
@@ -29,7 +29,7 @@
 .line {
     height: .2rem;
     width: 2.5rem;
-    background-color: #222;
+    background-color: $main-color;
     transition-property: background-color, width, height;
     transition-duration: .3s;
     transition-timing-function: ease-in;
@@ -46,5 +46,5 @@
 .year {
     margin-bottom: 1rem;
     font-size: 1.5rem;
-    color: $brand-color;
+    color: $main-color;
 }

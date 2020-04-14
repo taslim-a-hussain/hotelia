@@ -1,4 +1,4 @@
-@import './export/var';
+@import '../../App/sass/export/var';
 
 .social-icons-list {
     list-style: none;
@@ -13,7 +13,7 @@
 
 .social-link {
     font-size: 2rem;
-    color: #777;
+    color: $main-color;
     transition-property: color, font-size;
     transition-duration: .3s;
     transition-timing-function: ease-in-out;
