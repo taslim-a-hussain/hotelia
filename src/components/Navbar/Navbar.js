@@ -1,7 +1,7 @@
 import React from 'react';
 import Social from '../Social/Social';
-import Navigation from '../Navigation/Navigation';
-import './sass/Navbar.scss';
+import Navigation from './Navigation/Navigation';
+import './Navbar.scss';
 
 export default () => {
     const date = new Date();
