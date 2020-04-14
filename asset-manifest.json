@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/grand-hotel/static/css/main.6bf1c80d.chunk.css",
-    "main.js": "/grand-hotel/static/js/main.54a0a814.chunk.js",
-    "main.js.map": "/grand-hotel/static/js/main.54a0a814.chunk.js.map",
-    "runtime-main.js": "/grand-hotel/static/js/runtime-main.a11b8d4c.js",
-    "runtime-main.js.map": "/grand-hotel/static/js/runtime-main.a11b8d4c.js.map",
-    "static/js/2.537d75a4.chunk.js": "/grand-hotel/static/js/2.537d75a4.chunk.js",
-    "static/js/2.537d75a4.chunk.js.map": "/grand-hotel/static/js/2.537d75a4.chunk.js.map",
-    "index.html": "/grand-hotel/index.html",
-    "precache-manifest.719af9062db9e4ed43d6edc30d71ddc0.js": "/grand-hotel/precache-manifest.719af9062db9e4ed43d6edc30d71ddc0.js",
-    "service-worker.js": "/grand-hotel/service-worker.js",
-    "static/css/main.6bf1c80d.chunk.css.map": "/grand-hotel/static/css/main.6bf1c80d.chunk.css.map",
-    "static/js/2.537d75a4.chunk.js.LICENSE.txt": "/grand-hotel/static/js/2.537d75a4.chunk.js.LICENSE.txt"
+    "main.css": "/hotelia/static/css/main.e9805e60.chunk.css",
+    "main.js": "/hotelia/static/js/main.4d115341.chunk.js",
+    "main.js.map": "/hotelia/static/js/main.4d115341.chunk.js.map",
+    "runtime-main.js": "/hotelia/static/js/runtime-main.81ec31b5.js",
+    "runtime-main.js.map": "/hotelia/static/js/runtime-main.81ec31b5.js.map",
+    "static/js/2.d8ed4a06.chunk.js": "/hotelia/static/js/2.d8ed4a06.chunk.js",
+    "static/js/2.d8ed4a06.chunk.js.map": "/hotelia/static/js/2.d8ed4a06.chunk.js.map",
+    "index.html": "/hotelia/index.html",
+    "precache-manifest.55dcc2fae0c93a4c7b68ba3bc648c805.js": "/hotelia/precache-manifest.55dcc2fae0c93a4c7b68ba3bc648c805.js",
+    "service-worker.js": "/hotelia/service-worker.js",
+    "static/css/main.e9805e60.chunk.css.map": "/hotelia/static/css/main.e9805e60.chunk.css.map",
+    "static/js/2.d8ed4a06.chunk.js.LICENSE.txt": "/hotelia/static/js/2.d8ed4a06.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a11b8d4c.js",
-    "static/js/2.537d75a4.chunk.js",
-    "static/css/main.6bf1c80d.chunk.css",
-    "static/js/main.54a0a814.chunk.js"
+    "static/js/runtime-main.81ec31b5.js",
+    "static/js/2.d8ed4a06.chunk.js",
+    "static/css/main.e9805e60.chunk.css",
+    "static/js/main.4d115341.chunk.js"
   ]
 }
