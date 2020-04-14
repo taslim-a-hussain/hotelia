@@ -1,3 +1,5 @@
+@import './export/var';
+
 .navbar {
     .sidebar {
         width: 8rem;
@@ -19,7 +21,7 @@
 
     &:hover .line {
         width: 2.5rem;
-        background-color: coral;
+        background-color: $brand-color;
         height: .4rem;
     }
 }
@@ -44,5 +46,5 @@
 .year {
     margin-bottom: 1rem;
     font-size: 1.5rem;
-    color: coral;
+    color: $brand-color;
 }
