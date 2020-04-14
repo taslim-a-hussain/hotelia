@@ -1,5 +1,5 @@
 {
-  "name": "grand-hotel",
+  "name": "hotelia",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +12,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1"
   },
-  "homepage": "https://taslim-a-hussain.github.io/grand-hotel/",
+  "homepage": "https://taslim-a-hussain.github.io/hotelia/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
