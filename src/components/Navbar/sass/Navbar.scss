@@ -1,0 +1,14 @@
+.navbar {
+    .sidebar {
+        width: 8rem;
+        height: 100%;
+        background-color: #eee;
+        position: fixed;
+
+        .menu-icon {
+            width: 2rem;
+            height: 2rem;
+            background-color: grey;
+        }
+    }
+}
