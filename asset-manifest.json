@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/hotelia/static/css/main.5814d1d6.chunk.css",
-    "main.js": "/hotelia/static/js/main.04840e1e.chunk.js",
-    "main.js.map": "/hotelia/static/js/main.04840e1e.chunk.js.map",
+    "main.css": "/hotelia/static/css/main.9e1c14a4.chunk.css",
+    "main.js": "/hotelia/static/js/main.201af10a.chunk.js",
+    "main.js.map": "/hotelia/static/js/main.201af10a.chunk.js.map",
     "runtime-main.js": "/hotelia/static/js/runtime-main.81ec31b5.js",
     "runtime-main.js.map": "/hotelia/static/js/runtime-main.81ec31b5.js.map",
     "static/js/2.8891733f.chunk.js": "/hotelia/static/js/2.8891733f.chunk.js",
     "static/js/2.8891733f.chunk.js.map": "/hotelia/static/js/2.8891733f.chunk.js.map",
     "index.html": "/hotelia/index.html",
-    "precache-manifest.01672eb3eec1269e9688ce8e39178ce6.js": "/hotelia/precache-manifest.01672eb3eec1269e9688ce8e39178ce6.js",
+    "precache-manifest.bce9463db0e1098e69c3787e9d199ba2.js": "/hotelia/precache-manifest.bce9463db0e1098e69c3787e9d199ba2.js",
     "service-worker.js": "/hotelia/service-worker.js",
-    "static/css/main.5814d1d6.chunk.css.map": "/hotelia/static/css/main.5814d1d6.chunk.css.map",
+    "static/css/main.9e1c14a4.chunk.css.map": "/hotelia/static/css/main.9e1c14a4.chunk.css.map",
     "static/js/2.8891733f.chunk.js.LICENSE.txt": "/hotelia/static/js/2.8891733f.chunk.js.LICENSE.txt",
     "static/media/Navigation.scss": "/hotelia/static/media/navigation.63326b5c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.81ec31b5.js",
     "static/js/2.8891733f.chunk.js",
-    "static/css/main.5814d1d6.chunk.css",
-    "static/js/main.04840e1e.chunk.js"
+    "static/css/main.9e1c14a4.chunk.css",
+    "static/js/main.201af10a.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c15113515427b14f1a764e0bc16adcae",
+    "revision": "d863ae9072278b34235c4cf0faa9707c",
     "url": "/hotelia/index.html"
   },
   {
-    "revision": "30079bbbe057c49f7e93",
-    "url": "/hotelia/static/css/main.5814d1d6.chunk.css"
+    "revision": "be81b67e1e1e4ca2418b",
+    "url": "/hotelia/static/css/main.9e1c14a4.chunk.css"
   },
   {
     "revision": "c005423534bfd2861a5a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hotelia/static/js/2.8891733f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30079bbbe057c49f7e93",
-    "url": "/hotelia/static/js/main.04840e1e.chunk.js"
+    "revision": "be81b67e1e1e4ca2418b",
+    "url": "/hotelia/static/js/main.201af10a.chunk.js"
   },
   {
     "revision": "91150f5ba899a807b053",
