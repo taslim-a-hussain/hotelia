@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hotelia/precache-manifest.55dcc2fae0c93a4c7b68ba3bc648c805.js"
+  "/hotelia/precache-manifest.01672eb3eec1269e9688ce8e39178ce6.js"
 );
 
 self.addEventListener('message', (event) => {
