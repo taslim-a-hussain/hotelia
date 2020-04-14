@@ -1,5 +1,6 @@
 import React from 'react';
 import Social from '../Social/Social';
+import Navigation from '../Navigation/Navigation';
 import './sass/Navbar.scss';
 
 export default () => {
@@ -17,6 +18,7 @@ export default () => {
                 {date.getFullYear()}
             </div>
         </div>
+        <Navigation />
     </div>
     );
 };
