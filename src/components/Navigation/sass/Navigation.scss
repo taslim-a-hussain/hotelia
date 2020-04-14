@@ -1,7 +1,7 @@
 @import '../../App/sass/export/var';
 
 .navigation {
-    margin-left: 8rem;
+    left: -40rem;
     position: fixed;
     width: 40rem;
     height: 100%;
@@ -15,6 +15,9 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    transition-property: left;
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
 }
 
 .navigation-heading {
@@ -91,15 +94,50 @@
     font-size: 1.6rem;
     font-weight: bold;
     text-align: center;
+    position: relative;
 }
 
 .navigation-link {
     text-decoration: none;
     color: $sidebar-bg-color;
     text-shadow: $text-shadow;
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
+
+
+    &::before {
+        content: "";
+        width: 0rem;
+        height: .1rem;
+        background-color: $brand-color;
+        position: absolute;
+        top: .9rem;
+        left: -4.5rem;
+        transition-property: width;
+        transition-duration: .3s;
+        transition-timing-function: cubic-bezier(1, 0, 0, 1);
+    }
+
+    &::after {
+        content: "";
+        width: 0rem;
+        height: .1rem;
+        background-color: $brand-color;
+        position: absolute;
+        top: .9rem;
+        right: -4.5rem;
+        transition-property: width;
+        transition-duration: .3s;
+        transition-timing-function: cubic-bezier(1, 0, 0, 1);
+    }
 
     &:hover {
         color: $onHover-color;
+    }
+
+    &:hover::before, &:hover::after {
+        width: 3rem;
     }
 }
 
