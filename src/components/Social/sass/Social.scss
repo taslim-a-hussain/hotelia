@@ -1,0 +1,23 @@
+.social-icons-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social-link {
+    font-size: 2rem;
+    color: #777;
+    transition-property: color, font-size;
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+
+    &:hover {
+        color: coral;
+        font-size: 2.5rem;
+    }
+}
