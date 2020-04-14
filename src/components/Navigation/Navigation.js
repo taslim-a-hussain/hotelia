@@ -2,13 +2,13 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import './sass/Navigation.scss';
 
-export default () => (
+export default props => (
     <nav className="navigation">
         <div className="navigation-header">
             <h1 className="navigation-heading">Hotelia</h1>
             <form className="navigation-search">
                 <input type="text" className="navigation-search-input" placeholder="Search..." />
-                <button><i className="fas fa-search"></i></button>
+                <button className="navigation-search-btn"><i className="fas fa-search"></i></button>
             </form>
         </div>
 
@@ -32,5 +32,9 @@ export default () => (
                 <Link className="navigation-link" to="/contact">Contact</Link>
             </li>
         </ul>
+
+        <div className="copyright">
+            <p>&copy; {props.year}. Hotelia. All Rights Reserved</p>
+        </div>
     </nav>
 );

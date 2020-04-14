@@ -1,4 +1,66 @@
 .navigation {
     margin-left: 8rem;
     position: fixed;
+    width: 40rem;
+    height: 100%;
+    background-image: 
+    linear-gradient(to bottom, rgba(5, 23, 128, 0.8), rgba(4, 69, 211, 0.7)),
+    url("../../../assets/image/navigation.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    text-align: center;
+    color: rgb(197, 139, 125);
+    text-shadow: .3rem .3rem rgba(5, 23, 128, 0.9);
+} 
+
+.navigation-search {
+    position: relative;
+}
+
+.navigation-search-input {
+    width: 30rem;
+    padding: 1rem;
+    background-color:  rgba(0, 0, 0, 0.3);
+    font-family: 'Josefin Sans', sans-serif;
+    border: .1rem solid rgba(197, 139, 125, .4);
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    outline: none;
+    box-shadow: .3rem .3rem rgba(5, 23, 128, 0.9);
+    transition-property: background-color, color;
+    transition-duration: .3s;
+
+    &:focus {
+        background-color:  rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+}
+
+.navigation-search-btn {
+    border: none;
+    position: absolute;
+    bottom: .3rem;
+    background-color: transparent;
+    font-size: 2rem;
+    text-shadow: .3rem .3rem rgba(5, 23, 128, 0.9);
+}
+
+.navigation-list {
+    list-style: none;
+}
+
+.navigation-link {
+    text-decoration: none;
 }

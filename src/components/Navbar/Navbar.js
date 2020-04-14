@@ -18,7 +18,7 @@ export default () => {
                 {date.getFullYear()}
             </div>
         </div>
-        <Navigation />
+        <Navigation year={date.getFullYear()}/>
     </div>
     );
 };
