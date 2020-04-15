@@ -1,0 +1,14 @@
+@mixin logo($align: center) {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    text-align: $align;
+    color: $brand-color;
+    text-shadow: $text-shadow;
+    cursor: pointer;
+
+    &:hover {
+        color: $onHover-color;
+    }
+}

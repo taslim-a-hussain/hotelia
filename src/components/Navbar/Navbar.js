@@ -1,5 +1,5 @@
 import React from 'react';
-import Social from '../Social/Social';
+import Social from './Social/Social';
 import Navigation from './Navigation/Navigation';
 import './Navbar.scss';
 

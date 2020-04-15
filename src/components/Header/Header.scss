@@ -1,3 +1,21 @@
+@import '../App/sass/export/var';
+
 header {
     margin-left: 8rem;
+    height: 100vh;
+    background-image: 
+    $navigation-bg-image-overlay-color,
+    url("../../assets/image/navigation.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brand {
+    display: inline-block;
+    padding-top: 2.5rem;
+}
+
+.logo {
+    @include logo(left);
 }
