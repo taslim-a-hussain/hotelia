@@ -4,7 +4,7 @@ header {
     margin-left: 8rem;
     height: 100vh;
     background-image: 
-    $navigation-bg-image-overlay-color,
+    $bg-image-overlay-color,
     url("../../assets/image/navigation.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -18,4 +18,63 @@ header {
 
 .logo {
     @include logo(left);
+}
+
+.banner {
+    height: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $sidebar-bg-color;
+
+    h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 7rem;
+        font-weight: 400;
+        margin-bottom: 0;
+        animation-name: anim;
+        animation-duration: 2s;
+    }
+
+    p {
+        font-size: 3.5rem;
+        font-weight: 300;
+        animation-name: anim;
+        animation-fill-mode: backwards;
+        animation-delay: 1s;
+        animation-duration: 1.5s;
+    }
+
+    button {
+        width: 21rem;
+        border-radius: 2rem;
+        padding: 2rem 2rem;
+        font-size: 2rem;
+        color: $brand-color;
+        background-color: $sidebar-bg-color;
+        border: none;
+        outline: none;
+        animation-name: anim;
+        animation-fill-mode: backwards;
+        animation-delay: 2.5s;
+        animation-duration: 1.5s;
+
+        &:hover {
+            background: linear-gradient(to right, $sub-color, $sidebar-bg-color);
+        }
+
+        &:active {
+            transform: translateY(.5rem);
+        }
+    }
+}
+
+@keyframes anim {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
