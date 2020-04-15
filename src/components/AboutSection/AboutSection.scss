@@ -41,6 +41,10 @@
     }
 }
 
+.brand {
+    @include logo;
+}
+
 .arrow-left {
     transition-property: margin-left;
     transition-duration: .3s;
@@ -71,8 +75,31 @@
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 50%;
+    position: relative;
 }
 
-.brand {
-    @include logo;
+.image {
+    height: 20rem;
+    width: 32rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 3rem 2rem rgba(0, 0, 0, .4);
+    border-radius: 1rem;
+}
+
+.image-1 {
+    transform: translate(10%, -90%);
+}
+
+.image-2 {
+    transform: translate(-80%, -70%);
+}
+
+.image-3 {
+    transform: translate(-50%, -50%);
+}
+
+.image-4 {
+    transform: translate(-20%, -5%);
 }

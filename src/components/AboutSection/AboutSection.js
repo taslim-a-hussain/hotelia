@@ -22,10 +22,10 @@ export default () => (
             <button>READ MORE <i className="fas fa-angle-double-right arrow-left"></i></button>
         </div>
         <div className="about-images">
-            <img src={image1} width="320" height="200" alt="Hotelia"/>
-            <img src={image2} width="320" height="200" alt="Hotelia"/>
-            <img src={image3} width="320" height="200" alt="Hotelia"/>
-            <img src={image4} width="320" height="200" alt="Hotelia"/>
+            <img className="image image-1" src={image1} alt="Hotelia"/>
+            <img className="image image-2" src={image2} alt="Hotelia"/>
+            <img className="image image-3" src={image3} alt="Hotelia"/>
+            <img className="image image-4" src={image4} alt="Hotelia"/>
         </div>
     </div>
 );
